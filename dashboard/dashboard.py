@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load data
-dongsiDf = pd.read_csv("main_data.csv")
+dongsiDf = pd.read_csv("../main_data.csv")  # Update the path
 
 # Convert date columns
 years = dongsiDf['year'].values
